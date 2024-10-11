@@ -10,11 +10,12 @@ body {
 h1 {
     position: absolute;
     top: 20px;
+    margin-top: 20px;
 }
 
 .memory-game {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(5, 100px);
     grid-gap: 10px;
 }
 
@@ -88,3 +89,15 @@ h1 {
 .back-face {
     background-color: #2e8b57;
 }
+
+.front-face {
+    font-size: 18px; /* Taille par défaut */
+  }
+  
+  .front-face.long-text { 
+    font-size: 16px; /* Taille pour textes de 6 lettres ou plus */
+  }
+  
+  .front-face.very-long-text {
+    font-size: 12px; /* Taille pour textes de plus de 10 lettres */
+  }
