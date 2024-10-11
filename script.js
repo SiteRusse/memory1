@@ -57,3 +57,15 @@ function resetBoard() {
 })();
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+const frontFaces = document.querySelectorAll('.front-face');
+
+frontFaces.forEach(frontFace => {
+  const textLength = frontFace.textContent.length;
+  if (textLength >= 6) {
+    frontFace.classList.add('long-text');
+  }
+  if (textLength > 10) {
+    frontFace.classList.add('very-long-text');
+  }
+});
