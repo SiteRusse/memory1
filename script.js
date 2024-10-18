@@ -69,3 +69,7 @@ frontFaces.forEach(frontFace => {
     frontFace.classList.add('very-long-text');
   }
 });
+
+document.getElementById('recommencer').addEventListener('click', function() {
+    location.reload();
+});
