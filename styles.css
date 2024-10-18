@@ -101,3 +101,16 @@ h1 {
   .front-face.very-long-text {
     font-size: 12px; /* Taille pour textes de plus de 10 lettres */
   }
+
+  #recommencer {
+    position: absolute;
+    top: 0 ;
+    right: 0 ;
+    margin: 15px;
+    padding : 15px 30px;
+    border-radius: 10px;
+    color: #1e90ff;
+    border-color:#1e90ff ;
+    background-color: rgb(213, 235, 255);
+    cursor:pointer;
+  }
