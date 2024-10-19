@@ -114,3 +114,10 @@ h1 {
     background-color: rgb(213, 235, 255);
     cursor:pointer;
   }
+
+  #bouton-accueil {
+    position: absolute;
+    top: 10px; /* Ajustez cette valeur pour définir la distance du haut */
+    left: 10px; /* Ajustez cette valeur pour définir la distance de la droite */
+    text-decoration: none;
+}
